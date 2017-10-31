@@ -31,6 +31,7 @@
           <div id="navbar" class="collapse navbar-collapse">
           
           <!--nav bar insert-->
+          
           <?php include 'navigation.php'; ?>
           
           </div>
