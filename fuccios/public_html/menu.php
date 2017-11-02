@@ -60,7 +60,7 @@
      <p>We have everything you could want! Bread sticks, pasta, salads, and soups!</p>
      <img class="picture" alt="Fuccio's" src="Pics/breadsticks.jpg" width="410" height="280"/>
      <img class="picture" alt="Fuccio's" src="Pics/salad.jpg" width="410" height="280"/>
-     <img class="picture" alt="Fuccio's" src="Pics/soup.jpg" width="410" height="280"/>
+     <img class="picture" alt="Fuccio's" src="Pics/Soup.jpg" width="410" height="280"/>
 
      <h1><em>Featured Items</em></h1>
      <table class="table table-hover">
@@ -124,7 +124,7 @@
         <p>Spaghetti and Meatballs</p>
 
     <img class="picture" alt="Fuccio's" src="Pics/fediccini.jpg" width="410" height="280"/>
-    <img class="picture" alt="Fuccio's" src="Pics/Pizza.jpg" width="410" height="280"/>
+    <img class="picture" alt="Fuccio's" src="Pics/pizza.jpg" width="410" height="280"/>
     <img class="picture" alt="Fuccio's" src="Pics/Spaghetti.jpg" width="410" height="280"/>
 
  </section>

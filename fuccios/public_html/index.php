@@ -65,7 +65,7 @@
           <div class="img_background_color"> 
             <img class="picture" src="Pics/Lasanga.jpg" alt="Fuccio's" width="550" height="374" style="margin-left:210px;"/>
             <img class="picture" src="Pics/Manacotti.jpg" alt="Fuccio's" width="550" height="374" style="margin-right:210px;"/> <br/>
-            <img class="picture" src="Pics/Pizza.jpg" alt="Fuccio's" width="550" height="374" style="margin-left:210px;"/>
+            <img class="picture" src="Pics/pizza.jpg" alt="Fuccio's" width="550" height="374" style="margin-left:210px;"/>
             <img class="picture" src="Pics/breadsticks.jpg" alt="Fuccio's" width="550" height="374" style="margin-right:210px;"/>
           </div>
               

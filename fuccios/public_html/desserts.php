@@ -164,7 +164,7 @@
 
 
 
-   <img class="picture" alt="Fuccio's" src="Pics/gelato.jpg" width="410" height="280"/>
+   <img class="picture" alt="Fuccio's" src="Pics/Gelato.jpg" width="410" height="280"/>
  </section>
  
  </div>
