@@ -61,7 +61,7 @@
      <h1>Drinks</h1>
      <h2>We have the proper beverage for all of our meals!</h2>
      <p>Choose from our wide selection of wines!</p>
-     <img class="picture" alt="Wine" src="Pics/Pizza.jpg" width="410" height="280"/>
+     <img class="picture" alt="Wines" src="Pics/wine.jpg" width="410" height="280"/>
      <h2>Some of our available wine brands:</h2>
      
      <ul>
