@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-	<title>Locations</title>
+	<title>Drinks</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,7 +15,7 @@
 
 <body>
     
-  <!-- start nav bar-->
+<!-- start nav bar-->
 
      <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -34,21 +34,18 @@
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
-         <ul class="nav navbar-nav">        
-           <li><a href='login.html'>Login</a></li>
-           <li><a href='sign_up.html'>Sign Up Here</a></li>
-           <li><a href='page_2.html'>Menu</a></li>
-           <li><a href='page_3.html'>About/Contact Us</a></li>
-           <li><a href='page_4.html'>Events</a></li>
-           <li><a href='page_5.html'>Desserts</a></li>
-           <li><a class = "active" href='page_6.html'>Locations</a></li>
-           <li><a href='page_7.html'>Drinks</a></li>
-         </ul>
+        
+         <!--nav bar insert-->
+          
+          <?php include '../resources/navigation.php'; ?>
+          
         </div>
       </div>
      </nav>
  <!-- end nav bar-->
        
+<div class="below_menu_container">
+     
     <header>
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -59,34 +56,40 @@
         </div>
       </div>
      </header>
+ 
+ <section>
+     <h1>Drinks</h1>
+     <h2>We have the proper beverage for all of our meals!</h2>
+     <p>Choose from our wide selection of wines!</p>
+     <img class="picture" alt="Fuccio's" src="Pics/wine.jpg" width="410" height="280"/>
+     <h2>Some of our available wine brands:</h2>
      
-<div class="below_menu_container">
-
-<section>
-     <h1>Locations</h1>
-     <h2>Come see us at one of our great locations! Access to our Atlantis location may
-     change due to recent geological changes.</h2>
-             
      <ul>
-         <li>On the South side of Atlantis at 1901 Castle Corner, Atlantis City, Atlantis,
-             00001</li>
-         <li>Next to a big building at 801 Grand, Des Moines, Iowa, 50263</li>
-         <li>Next to crater 6748bhd at 123 Moon Drive, Moon City, The Moon, STARS. (Space suit
-             recommended)</li>
+         <li>Prairie Berry</li>
+         <li>Pinot Nior Midsize Car</li>
+         <li>Fiat 500 Cabernet</li>
+         <li>I can't believe it's not Barbera</li>
+         <li>White Gold</li>
+         <li>Black Gold</li>
+         <li>Goldy Gold</li>
+         <li>Turquoise Gold</li>
+         <li>Bloody Gold</li>
+         <li>Metallic Gold</li>
+         <li>EXPLOSIVE Gold</li>
+         <li>The Wine Brand...</li>
      </ul>
      
-     <h2>Hours</h2>
-     <p>We are open from 10am-11pm Mon-Fri at all locations.</p>
- </section>
+     <p>  We keep a professional wine connoisseur on staff at all times.</p>
+</section>
 
 </div>
 
- <footer> 
-  <a class= "footer" href= 'http://www.blr.com/HR-Employment/HR-Administration/Privacy-in-Iowa#'>&copy;      Privacy Notice (Updated September 4, 2017)/ Your Iowa Privacy Rights </a>
- </footer>
+ <!--Footer test-->
+      <?php include '../resources/footer.php'; ?>
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
 </body>
+
 </html>

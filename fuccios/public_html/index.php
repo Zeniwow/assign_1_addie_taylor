@@ -32,7 +32,7 @@
           
           <!--nav bar insert-->
           
-          <?php include 'navigation.php'; ?>
+          <?php include '../resources/navigation.php'; ?>
           
           </div>
         </div>
@@ -78,17 +78,16 @@
 
           <div>
            <h2>We'd love to serve you! Look at our events page and see all the fun activities we have to offer!</h2>
-            <a style="margin: 5px;" href='page_4.html'  class="btn btn-primary">Events</a>
+            <a style="margin: 5px;" href='events.php'  class="btn btn-primary">Events</a>
             <h2>Check out our extensive Menu!</h2>
-            <a style="margin: 5px;" href="page_2.html"  class="btn btn-primary">Menu</a> 
+            <a style="margin: 5px;" href="menu.php"  class="btn btn-primary">Menu</a> 
           </div>
         </section> 
         
     </div>
 
-      <footer> 
-           <a  class="footer col-sm-12" href= 'http://www.blr.com/HR-Employment/HR-Administration/Privacy-in-Iowa#'>&copy; Privacy Notice (Updated September 4, 2017)/ Your Iowa Privacy Rights </a>
-      </footer>
+      <!--Footer test-->
+      <?php include '../resources/footer.php'; ?>
 
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

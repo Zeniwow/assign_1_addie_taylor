@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- Addie's page-->
+<!-- Login page-->
 
 <html lang="en">
-
+<!-- Addies page -->
 <head>
-	<title>Events</title>
+	<title>Login</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,7 +15,7 @@
 
 <body>
     
- <!-- start nav bar-->
+  <!-- start nav bar-->
 
      <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -34,23 +34,18 @@
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
-         <ul class="nav navbar-nav">        
-           <li><a href='login.html'>Login</a></li>
-           <li><a href='sign_up.html'>Sign Up Here</a></li>
-           <li><a href='page_2.html'>Menu</a></li>
-           <li><a href='page_3.html'>About/Contact Us</a></li>
-           <li><a class = "active" href='page_4.html'>Events</a></li>
-           <li><a href='page_5.html'>Desserts</a></li>
-           <li><a href='page_6.html'>Locations</a></li>
-           <li><a href='page_7.html'>Drinks</a></li>
-         </ul>
+
+         <!--nav bar insert-->
+          
+          <?php include '../resources/navigation.php'; ?>
+          
         </div>
       </div>
      </nav>
  <!-- end nav bar-->
-    
- <div class="below_menu_container">
-    
+       
+<div class="below_menu_container">    
+     
     <header>
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -62,26 +57,43 @@
       </div>
      </header>
 
-<section> 
-     <h1>Events</h1>
-     <h2>Celebrate your special occasion with us!</h2>
-     <p>Book us to cater your special event.</p>
-     <p>From birthdays to weddings, Fuccio's is the perfect choice for any event!</p>
-     <h2>Our upcoming events</h2>
-     
-     <ul> 
-         <li>September 20 Kids eat free from 2-7 pm.</li>
-         <li>September 25 Live singing from Paolo from 8-10 pm.</li>  
-         <li>October 1st Live classical piano playing from 7-10 pm.</li>
-         <li>October 20 Customer Appreciation Day (Everything half priced) from 12-5.</li>
-     </ul>
-</section>
+     <div class="alert alert-danger">
+          <strong>Warning!</strong> Never give out your password to strangers!
+     </div>
+
+ <div class="container">
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label style="font-weight: bold; color: black;" class="control-label col-sm-2" for="user_name">Username:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="user_name" placeholder="Enter username">
+          </div>
+        </div>
+        <div class="form-group">
+          <label  style="font-weight: bold; color: black;" class="control-label col-sm-2" for="user_password">Password:</label>
+          <div class="col-sm-10"> 
+            <input  type="Password" class="form-control" id="user_password" placeholder="Enter password">
+          </div>
+        </div>
+        <div class="form-group"> 
+          <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+              <label style="font-weight: bold; color: black;"><input  type="checkbox"> Remember me</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group"> 
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+  </div>
 
 </div>
-
- <footer> 
-    <a class="footer" href='http://www.blr.com/HR-Employment/HR-Administration/Privacy-in-Iowa#'>&copy; Privacy Notice (Updated September 4, 2017)/ Your Iowa Privacy Rights </a>
- </footer>
+ 
+ <!--Footer test-->
+      <?php include '../resources/footer.php'; ?>
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
