@@ -30,7 +30,7 @@
           </button>
 
           <!-- Title on nav bar -->
-          <a class="navbar-brand" href='index.html'>Home</a>
+          <a class="navbar-brand" href='index.php'>Home</a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
